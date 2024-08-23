@@ -1,0 +1,18 @@
+Para iniciar um container
+- docker run -dti(Para rodar o container em background e so parar via comando stop) ubuntu(imagem que deseja rodar)
+
+Para executar algo dentro do container
+- docker exec -it a45(Esses são os 3 primeiros numeros do id do container) /bin/bash(Comando escolhido)
+
+Para remover uma imagem do docker
+- docker rmi hello-world(nome-imagem)
+
+Para colocar um container em execução
+- docker start a45(Esses são os 3 primeiros numeros do id do container)
+
+
+Para parar a execução de um container
+- docker stop a45(Esses são os 3 primeiros numeros do id do container)
+
+Para nomear um container
+- docker run -dti --name Ubuntu-A ubuntu(Imagem que quero nomear)
